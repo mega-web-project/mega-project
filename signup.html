@@ -10,8 +10,8 @@
     <!--tachyons.io cdn styles link-->
     <link rel="stylesheet" href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css"/>
     <!--Linking signup css here-->
-    <link rel="stylesheet" href="css/index.css"/>
-    <title>Audio Note || Home...</title>
+    <link rel="stylesheet" href="css/signup.css"/>
+    <title>Signup page</title>
   </head>
   <body>
     <!--the navigation bar for the signup page-->
@@ -20,15 +20,74 @@
     </nav>
   <div class="container shadow-2">
     <div class="form-title">
-      <h2>Welcome...</h2>
+      <h2>SIGN UP</h2>
     </div>
 <!--forms content displayed here-->
 
+<form method="post" action="#">
+  <!--First name here-->
+  <div class="mb-3">
+    <input type="text" class="form-control grow" id="fname" name="fname" placeholder="First name">
+  </div>
+<!--second name here-->
+  <div class="mb-3">
+    <input type="text" class="form-control grow" id="lname" name="lname" placeholder="Last name">
+  </div>
+
+  <!--Email here-->
+  <div class="mb-3">
+    <input type="email" class="form-control grow" id="email" name="email" placeholder="example@gmail.com">
+  </div>
+
+  <!--Select Gender here-->
+  <div class="mb-3">
+    <select class="form-select grow" aria-label="Default select example">
+      <option selected>Gender</option>
+      <option value="1">Male</option>
+      <option value="2">Female</option>
+      <option value="3">Prefer not to say</option>
+    </select>
+  </div>
+
+
+  <!--Select Program here-->
+  <div class="mb-3">
+    <select class="form-select grow" aria-label="Default select example">
+      <option selected>Program of study/Interest</option>
+      <option value="1">B.Ed Computer Science</option>
+      <option value="2">B.Ed Science</option>
+      <option value="3">B.Ed. Early Childhood Education</option>
+      <option value="4">B. Ed. Basic Education</option>
+      <option value="5">B. Ed. Health Sciences</option>
+      <option value="6">B. Ed. Home Economics</option>
+      <option value="7">B. Ed. Mathematics</option>
+      <option value="8">B.Sc. Information Technology</option>
+      <option value="9">B.Sc. Computer Science</option>
+      <option value="10">B.Com. Accounting</option>
+      <option value="11">B.Com. Marketing</option>
+      <option value="12">B.Com. Finance</option>
+    </select>
+  </div>
+
+   <!--create password here-->
+  <div class="mb-3">
+    <input type="password" class="form-control grow" placeholder="***********" id="password1" name="password1">
+  </div>
+
+   <!--create password here-->
+   <div class="mb-3">
+    <input type="password" class="form-control grow" placeholder="***********" id="password2" name="password2">
+    </div>
+
   <div class="mb-3 form-check">
+    <input type="checkbox" class="form-check-input" id="checked" name="checked">
     <label class="form-check-label" for="exampleCheck1">
-    <strong><a href="#"  data-bs-toggle="modal" data-bs-target="#exampleModal" class="terms">Terms and condition</a><br><br></strong>
-    <strong><a href="signin.html" class="Alreadyhave">Sign In</a> OR <a href="signup.html" class="Alreadyhave">Sign Up</a></strong>
+    I Agree to the <a href="#"  data-bs-toggle="modal" data-bs-target="#exampleModal" class="terms">terms and condition</a><br>
+    <a href="signin.html" class="Alreadyhave">Already have Account || Sign In</a>
     </label>
+  </div>
+  <div class="mb-3"> 
+  <button type="submit"  class="btn btn-primary grow w-100">Submit</button>
   </div>
 
   <!-- Modal -->
