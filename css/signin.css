@@ -37,7 +37,7 @@ body{
  width: 450px;
  height: 400px;
  position: relative;
- margin: 6% auto;
+ margin: 4% auto;
  background:#fff;
  padding: 5px;
  border-color:black;
@@ -118,7 +118,9 @@ input[type="email"]{
     color: red;
 }
 
-.Alread
+.AlreadyHaveAccount {
+    text-align: center;
+}
 
 .mb-3 button{
     background-color: rgb(11, 201, 11);
