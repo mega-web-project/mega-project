@@ -11,7 +11,9 @@
     <link rel="stylesheet" href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css"/>
     <!--Linking signup css here-->
     <link rel="stylesheet" href="../css/signup.css"/>
-    <title>Signup page</title>
+
+    <link rel="stylesheet" href="">
+    <title>Sign Up for Audio note | Audio note</title>
   </head>
   <body>
     <!--the navigation bar for the signup page-->
@@ -20,7 +22,8 @@
     </nav>
   <div class="container shadow-2">
     <div class="form-title">
-      <h2>SIGN UP</h2>
+      <h2 class="h2">Create a New Account</h2>
+      <h5 class="h5Audio">To Join Audio Note</h5>
     </div>
 <!--forms content displayed here-->
 
@@ -71,24 +74,28 @@
 
    <!--create password here-->
   <div class="mb-3">
-    <input type="password" class="form-control grow" placeholder="***********" id="password1" name="password1">
+    <input type="password" class="form-control grow" placeholder="Password" id="password1" name="password1">
   </div>
 
    <!--create password here-->
    <div class="mb-3">
-    <input type="password" class="form-control grow" placeholder="***********" id="password2" name="password2">
+    <input type="password" class="form-control grow" placeholder="Confirm Password" id="password2" name="password2">
     </div>
 
   <div class="mb-3 form-check">
     <input type="checkbox" class="form-check-input" id="checked" name="checked">
     <label class="form-check-label" for="exampleCheck1">
-    I Agree to the <a href="#"  data-bs-toggle="modal" data-bs-target="#exampleModal" class="terms">terms and condition</a><br>
-    <a href="signin.html" class="Alreadyhave">Already have Account?</a>
+    I Agree to the <a href="#"  data-bs-toggle="modal" data-bs-target="#exampleModal" class="terms">terms and conditions</a><br>
     </label>
   </div>
   <div class="mb-3"> 
-  <button type="submit"  class="btn btn-primary grow w-100">Submit</button>
+  <button type="submit"  class="btn btn-primary grow w-100">Sign Up</button>
   </div>
+
+  <div class="mb-3 alreadyClass">
+    <h6><a href="signin.html" class="Alreadyhave">Already have an account?</a></h6>
+  </div>
+  
 
   <!-- Modal -->
 <div class="modal fade" id="exampleModal" name="modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
