@@ -28,7 +28,9 @@
 .fa-home:hover{
     color: cornflowerblue;
 }
-
+.badge{
+    font-size: 10px;
+}
 .notification{
     margin-right:10px;
     position: relative;
@@ -152,7 +154,10 @@
  .notify-add{
      top:220px;
  }
-
+ .badge{
+    font-size:15px;
+    margin-top:15px;
+}
  
   }
 /*desktop screen/ laptop screen */
