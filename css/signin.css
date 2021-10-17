@@ -1,14 +1,7 @@
 
-*{
-    padding: auto;
-    margin: auto;
-    position: relative;
-}
 body{
     margin:0;
     background: linear-gradient(90deg, rgba(223,222,246,1) 0%, rgba(209,214,221,1) 16%, rgba(230,235,240,1) 47%, rgba(218,225,230,1) 100%, rgba(0,212,255,1) 100%);
-   
-
 }
 
 .h2 {
@@ -54,6 +47,10 @@ body{
  }
  .mb-3{
     width:65%;
+}
+
+form {
+    justify-content: center;
 }
 .form-title{
     text-align: center;
@@ -128,8 +125,14 @@ input[type="email"]{
     font-size:20px;
     font-weight:20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    
 }
+
+.mb-3 {
+    padding: auto;
+    margin: auto;
+    position: relative;
+}
+
 
 
 /*media query for all screen '''''''
