@@ -113,111 +113,183 @@
         </div>
       </div>
     </nav>
-            <div class="container shadow-2">
-              <div class="form-title">
-                <h2 class="h2">Create New Account</h2>
-                <h5 class="h5Audio">To Join Audio Note</h5>
+    
+    <div class="row">
+        <div class="col md-6 no-gutters">
+              <div class="leftside d-flex justify-content-center align-items-center">
+                    Stream, upload and earn
               </div>
-          <!--forms content displayed here-->
-          
-          <form method="post" action="#">
-            <!--First name here-->
-            <div class="mb-3">
-              <input type="text" class="form-control grow" id="fname" name="fname" placeholder="First name">
-            </div>
-          <!--second name here-->
-            <div class="mb-3">
-              <input type="text" class="form-control grow" id="lname" name="lname" placeholder="Last name">
-            </div>
-          
-            <!--Email here-->
-            <div class="mb-3">
-              <input type="email" class="form-control grow" id="email" name="email" placeholder="Email">
-            </div>
-          
-            <!--Select Gender here-->
-            <div class="mb-3">
-              <select class="form-select grow" aria-label="Default select example">
-                <option selected>Gender</option>
-                <option value="1">Male</option>
-                <option value="2">Female</option>
-                <option value="3">Prefer not to say</option>
-              </select>
-            </div>
-          
-          
-            <!--Select Program here-->
-            <div class="mb-3">
-              <select class="form-select grow" aria-label="Default select example">
-                <option selected>Program of study/Interest</option>
-                <option value="1">B.Ed Computer Science</option>
-                <option value="2">B.Ed Science</option>
-                <option value="3">B.Ed. Early Childhood Education</option>
-                <option value="4">B. Ed. Basic Education</option>
-                <option value="5">B. Ed. Health Sciences</option>
-                <option value="6">B. Ed. Home Economics</option>
-                <option value="7">B. Ed. Mathematics</option>
-                <option value="8">B.Sc. Information Technology</option>
-                <option value="9">B.Sc. Computer Science</option>
-                <option value="10">B.Com. Accounting</option>
-                <option value="11">B.Com. Marketing</option>
-                <option value="12">B.Com. Finance</option>
-              </select>
-            </div>
-          
-             <!--create password here-->
-            <div class="mb-3">
-              <input type="password" class="form-control grow" placeholder="Password" id="password1" name="password1">
-            </div>
-          
-             <!--create password here-->
-             <div class="mb-3">
-              <input type="password" class="form-control grow" placeholder="Confirm Password" id="password2" name="password2">
+        </div>
+
+        <div class="col md-6 no-gutters">
+            <div class="rightside d-flex justify-content-center align-items-center">
+              <div class="container shadow-2">
+                  <div class="form-title">
+                    <h2 class="h2">Create New Account</h2>
+                  </div>
+                
+            <!--forms content displayed here-->
+            
+            <form method="post" action="#">
+              <!--First row-->
+              <div class="row">
+                  <div class="col md-6 no-gutters">
+                    <div class="d-flex justify-content-center align-items-center">
+                        <!--First name here-->
+                        <div class="mb-3 firstName">
+                          <input type="text" class="form-control grow" id="fname" name="fname" placeholder="First name">
+                        </div>
+                    </div>
+                  </div>
+
+                  <div class="col md-6 no-gutters" style="margin-top: 0px;">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <!--Last Name here-->
+                      <div class="mb-3 lastName">
+                      <input type="text" class="form-control grow" id="lname" name="lname" placeholder="Last name">
+                      </div>
+                    </div>
+                  </div>
               </div>
-          
-            <div class="mb-3 form-check">
-              <input type="checkbox" class="form-check-input" id="checked" name="checked">
-              <label class="form-check-label" for="exampleCheck1">
-              I Agree to the <a href="#"  data-bs-toggle="modal" data-bs-target="#exampleModal" class="terms">terms and conditions</a><br>
-              </label>
+              
+              <!--Second row-->
+              <div class="row">
+                <div class="col md-6 no-gutters">
+                  <div class="d-flex justify-content-center align-items-center">
+                      <!--Email here-->
+                      <div class="mb-3 email">
+                        <input type="email" class="form-control grow" id="email" name="email" placeholder="Email">
+                      </div>
+                  </div>
+                </div>
+
+                <div class="col md-6 no-gutters" style="margin-top: 0px;">
+                  <div class="d-flex justify-content-center align-items-center">
+                      <!--Telephone here-->
+                      <div class="mb-3 telephone">
+                        <input type="tel" class="form-control grow" id="tel" name="tel" placeholder="Telephone">
+                      </div>
+                  </div>
+                </div>
             </div>
-            <div class="mb-3"> 
-            <button type="submit"  class="btn btn-primary grow w-100">Sign Up</button>
+
+            <!--Third row-->
+            <div class="row">
+              <div class="col md-6 no-gutters">
+                <div class="d-flex justify-content-center align-items-center">
+                  <!--Date of Birth here-->
+                  <div class="mb-3 dob">
+                    <input type="date" class="form-control grow" id="dob" name="dob">
+                  </div>
+                </div>
+              </div>
+
+              <div class="col md-6 no-gutters" style="margin-top: 0px;">
+                <div class="d-flex justify-content-center align-items-center">
+                    <!--Select Gender here-->
+                    <div class="mb-3 gender">
+                      <select class="form-select grow" aria-label="Default select example">
+                        <option selected>Gender</option>
+                        <option value="1">Male</option>
+                        <option value="2">Female</option>
+                        <option value="3">Prefer not to say</option>
+                      </select>
+                    </div>
+                </div>
+              </div>
+          </div>
+
+           <!--Fourth row-->
+           <div class="row">
+            <div class="col md-6 no-gutters">
+              <div class="d-flex justify-content-center align-items-center">
+                <!--create password here-->
+              <div class="mb-3 password">
+                <input type="password" class="form-control grow" placeholder="Password" id="password1" name="password1">
+              </div>
+              </div>
             </div>
-          
-            <div class="mb-3 alreadyClass">
-              <h6><a href="signin.html" class="Alreadyhave">Already have an account?</a></h6>
+
+            <div class="col md-6 no-gutters" style="margin-top: 0px;">
+              <div class="d-flex justify-content-center align-items-center">
+                  <!--confirm password here-->
+                  <div class="mb-3 confirmPassword">
+                      <input type="password" class="form-control grow" placeholder="Confirm Password" id="password2" name="password2">
+                  </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+              <!--Select Program here-->
+              <div class="mb-3 selectProgram">
+                <select class="form-select grow" aria-label="Default select example">
+                  <option selected>Program of study/Interest</option>
+                  <option value="1">B.Ed Computer Science</option>
+                  <option value="2">B.Ed Science</option>
+                  <option value="3">B.Ed. Early Childhood Education</option>
+                  <option value="4">B. Ed. Basic Education</option>
+                  <option value="5">B. Ed. Health Sciences</option>
+                  <option value="6">B. Ed. Home Economics</option>
+                  <option value="7">B. Ed. Mathematics</option>
+                  <option value="8">B.Sc. Information Technology</option>
+                  <option value="9">B.Sc. Computer Science</option>
+                  <option value="10">B.Com. Accounting</option>
+                  <option value="11">B.Com. Marketing</option>
+                  <option value="12">B.Com. Finance</option>
+                </select>
+              </div>
+          </div>
+                
+
+            <div class="row">
+              <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="checked" name="checked">
+                <label class="form-check-label" for="exampleCheck1">
+                I Agree to the <a href="#"  data-bs-toggle="modal" data-bs-target="#exampleModal" class="terms">terms and conditions</a><br>
+                </label>
+              </div>
+              <div class="mb-3"> 
+              <button type="submit"  class="btn btn-primary grow w-100">Sign Up</button>
+              </div>
+            
+              <div class="mb-3 alreadyClass">
+                <h6><a href="signin.html" class="Alreadyhave">Already have an account?</a></h6>
+              </div>
+            </div>
+              
+              <!-- Modal -->
+            <div class="modal fade" id="exampleModal" name="modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-scrollable">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Terms and Conditions</h5>
+                  </div>
+                  <div class="modal-body">
+                   <p>Video provides a powerful way to help you prove your point. When you click Online Video, you can paste in the embed code for the video you want to add. You can also type a keyword to search online for the video that best fits your document.
+                    To make your document look professionally produced, Word provides header, footer, cover page, and text box designs that complement each other. For example, you can add a matching cover page, header, and sidebar. Click Insert and then choose the elements you want from the different galleries.
+                    Themes and styles also help keep your document coordinated. When you click Design and choose a new Theme, the pictures, charts, and SmartArt graphics change to match your new theme. When you apply styles, your headings change to match the new theme.
+                    Save time in Word with new buttons that show up where you need them. To change the way a picture fits in your document, click it and a button for layout options appears next to it. When you work on a table, click where you want to add a row or a column, and then click the plus sign.
+                    Reading is easier, too, in the new Reading view. You can collapse parts of the document and focus on the text you want. If you need to stop reading before you reach the end, Word remembers where you left off - even on another device.
+                    
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
             </div>
             
-          
-            <!-- Modal -->
-          <div class="modal fade" id="exampleModal" name="modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-scrollable">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLabel">Terms and Conditions</h5>
-                </div>
-                <div class="modal-body">
-                 <p>Video provides a powerful way to help you prove your point. When you click Online Video, you can paste in the embed code for the video you want to add. You can also type a keyword to search online for the video that best fits your document.
-                  To make your document look professionally produced, Word provides header, footer, cover page, and text box designs that complement each other. For example, you can add a matching cover page, header, and sidebar. Click Insert and then choose the elements you want from the different galleries.
-                  Themes and styles also help keep your document coordinated. When you click Design and choose a new Theme, the pictures, charts, and SmartArt graphics change to match your new theme. When you apply styles, your headings change to match the new theme.
-                  Save time in Word with new buttons that show up where you need them. To change the way a picture fits in your document, click it and a button for layout options appears next to it. When you work on a table, click where you want to add a row or a column, and then click the plus sign.
-                  Reading is easier, too, in the new Reading view. You can collapse parts of the document and focus on the text you want. If you need to stop reading before you reach the end, Word remembers where you left off - even on another device.
-                  
-                  </p>
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                </div>
-              </div>
+            <!--modal ends here-->
+            </form>
+            </div>
             </div>
           </div>
-          
-          <!--modal ends here-->
-          </form>
-          </div>
-          </div>
+            </div>
         </div>
+    </div>
+        
 
   
     <!-- Optional JavaScript; choose one of the two! -->
