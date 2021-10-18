@@ -1,0 +1,194 @@
+
+body{
+    margin:0;
+    background: linear-gradient(90deg, rgba(223,222,246,1) 0%, rgba(209,214,221,1) 16%, rgba(230,235,240,1) 47%, rgba(218,225,230,1) 100%, rgba(0,212,255,1) 100%);
+}
+
+.h2 {
+    font-weight: bold;
+}
+.nav{
+    padding-bottom:20px;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 5px 0px;
+}
+.nav img{
+    padding-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:6em;
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    -ms-border-radius:50%;
+    -o-border-radius:50%;
+
+}
+
+.container{
+ width: 450px;
+ height: 400px;
+ position: relative;
+ margin: 4% auto;
+ background:#fff;
+ padding: 5px;
+ border-color:black;
+ box-shadow: rgba( 0, 0, 0, 0.2 );
+ border-radius:20px 20px 20px 20px ;
+ -webkit-border-radius:20px 20px 20px 20px ;
+ -moz-border-radius:20px 20px 20px 20px ;
+ -ms-border-radius:20px 20px 20px 20px ;
+ -o-border-radius:20px 20px 20px 20px ;
+}
+
+.shadow-2 { 
+    box-shadow: 0px 0px 8px 2px rgba( 0, 0, 0, 0.2 );
+ }
+ .mb-3{
+    width:65%;
+}
+
+form {
+    justify-content: center;
+}
+.form-title{
+    text-align: center;
+    letter-spacing: 3px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: dodgerblue;
+    box-shadow: 0px 1px 2px gray;
+    border-top-left-radius:10px;
+    border-top-right-radius: 10px;
+    padding: 10px 0px;
+}
+
+input{
+    padding: 20px;
+}
+input[type="text"]{
+   margin: 10px auto;
+   font-size:1rem;
+   background-color:cornsilk;
+   color: black;
+   border-top: none;
+   
+
+}
+input[type="email"]{
+    margin: 10px auto;
+    font-size:1rem;
+    background-color: cornsilk;
+    color: black;
+    border-top: none;
+ 
+ }
+ .form-select{
+    margin: 10px auto;
+    font-size:1rem;
+    background-color: cornsilk;
+    color: black;
+    border-top: none;
+ 
+ }
+ input[type="password"]{
+    margin: 10px auto;
+    font-size:1rem;
+    background-color: cornsilk;
+    color: black;
+    border-top: none;
+ 
+ }
+.terms{
+    text-decoration: none;
+    color: crimson;
+}
+.Alreadyhave{
+    padding-top:10px;
+    text-align: justify;
+    text-decoration: none;
+    font-weight:10px;
+    font-size:1em;
+    color: cadetblue;
+}
+.Alreadyhave:hover{
+    color: red;
+}
+
+.AlreadyHaveAccount {
+    text-align: center;
+}
+
+.mb-3 button{
+    background-color: rgb(11, 201, 11);
+    border-color: black;
+    font-size:20px;
+    font-weight:20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.mb-3 {
+    padding: auto;
+    margin: auto;
+    position: relative;
+}
+
+
+
+/*media query for all screen '''''''
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .container{
+        width: 320px;
+        font-size:1rem;
+    }
+    input[type="email"]{
+        font-size: 1.25rem;
+    }
+
+    input[type="password"]{
+        font-size: 1.25rem;
+    }
+
+    .form-select{
+        font-size: 1.25rem;
+    }
+  .modal{
+      width: 100%;
+  }
+}
+
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .container{
+        width:600px;
+        height: auto;
+        font-size:1.8rem;
+    }
+
+
+    input[type="text"]{
+        font-size:1.8rem;
+    }
+    input[type="email"]{
+        font-size:1.8rem;
+    }
+
+    input[type="password"]{
+        font-size: 1.8rem;
+    }
+
+    .form-select{
+        font-size: 1.8rem;
+    }
+    .modal{
+        width: 100%;
+    }
+   
+}
