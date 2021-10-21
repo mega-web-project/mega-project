@@ -18,20 +18,25 @@
 
 .owl-nav{
     position: absolute;
-    top: -3rem;
+    top:-3rem;
     right: 0;
 
 }
 
-img{
-    width:18px;
+.control-icons{
+    width:25px;
+    background: aquamarine;
+    box-shadow:5px 5px 5px rgb(13, 128, 156);
+    
 }
+
 .owl-nav .owl-prev:hover,.owl-nav .owl-next:hover{
    background: none !important;
    outline: none !important;
    opacity: 1;
 }
 .owl-nav .owl-prev,.owl-nav .owl-next{
+    
     outline: none;
     opacity: 0.6;
     transition:all .5s ease;
@@ -39,4 +44,20 @@ img{
     -moz-transition:all .5s ease;
     -ms-transition:all .5s ease;
     -o-transition:all .5s ease;
+
+}
+.owl-dots{
+    margin-top:2rem;
+}
+.owl-oot.octive{
+    transition: all .2s ease;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -ms-transition: all .2s ease;
+    -o-transition: all .2s ease;
 }

@@ -1,6 +1,6 @@
 $(document).ready(function(){
-    const nextIcon = '<img src="../logo/next.png" alt="right">';
-    const previous = '<img src="../logo/previous.png" alt="left">';
+    const nextIcon = '<img src="../logo/next.png" alt="right" class="control-icons">';
+    const previous = '<img src="../logo/previous.png" alt="left" class="control-icons">';
     
     $('.owl-carousel').owlCarousel({
         loop:true,
