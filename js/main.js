@@ -7,8 +7,8 @@ $(document).ready(function(){
         margin:10,
         nav:true,
         navText:[
-            nextIcon,
-            previous
+            previous,
+            nextIcon
         ],
         responsive:{
             0:{
