@@ -7,7 +7,7 @@
     margin-top:5%;
 }
 .title{
-    margin-left:7%;
+    margin-left:12%;
     font-family: -apple-system, BlinkMacSystemFont,
                'avenir next', avenir,
                'helvetica neue', helvetica,
@@ -28,8 +28,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+
 
 }
+
 .item .card img{
     width: 18rem;
     height:10rem;
@@ -44,18 +47,34 @@
 }
 .owl-nav{
     position: absolute;
-    top:-3rem;
+    top: 30%;
+    left: 0;
     right: 0;
 
 }
 .card-link{
     text-decoration:none;
+    font-size:20px;
+    font-weight:400;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: rgb(220, 232, 233);
+    padding:15px 45px;
+    color: rgb(107, 86, 86);
+    font: bold;
 }
+
+
+
 .control-icons{
-    width:25px;
-    background: aquamarine;
-    box-shadow:5px 5px 5px rgb(13, 128, 156);
-    
+    width:40px;
+    height:40px;
+    background: rgb(7, 248, 168);
+    border-radius:50%;
+    box-shadow:5px 5px 5px rgb(11, 86, 105);
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    -ms-border-radius:50%;
+    -o-border-radius:50%;
 }
 
 .owl-nav .owl-prev:hover,.owl-nav .owl-next:hover{
@@ -64,28 +83,64 @@
    opacity: 1;
 }
 .owl-nav .owl-prev,.owl-nav .owl-next{
-    
     outline: none;
-    opacity: 0.6;
-    transition:all .5s ease;
-    -webkit-transition:all .5s ease;
-    -moz-transition:all .5s ease;
-    -ms-transition:all .5s ease;
-    -o-transition:all .5s ease;
+    opacity: 0.8;
+    transition:all .8s ease;
+    -webkit-transition:all .8s ease;
+    -moz-transition:all .8s ease;
+    -ms-transition:all .8s ease;
+    -o-transition:all .8s ease;
+}
 
+.owl-prev,.owl-next{
+    position: absolute;
+    height: 100px;
+    color: inherit;
+    background: none;
+    border: none;
+    z-index: 100;
+}
+
+.owl-prev {
+    left:-6%;
+    
+}
+
+.owl-next {
+    right:-6%;
 }
 .owl-dots{
     margin-top:2px;
 }
 .owl-oot.octive{
-    transition: all .2s ease;
-    transform: scale(1.2);
-    -webkit-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    -o-transform: scale(1.2);
-    -webkit-transition: all .2s ease;
-    -moz-transition: all .2s ease;
-    -ms-transition: all .2s ease;
-    -o-transition: all .2s ease;
+    transition: all .5s ease;
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
 }
+
+
+
+/*media query for all screen '''''''
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .container .carousel{
+        margin-top:25%;
+    }
+    .title{
+        margin-left:14%;
+    }
+    .control-icons{
+        display: none;
+    }
+
+  }

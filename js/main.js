@@ -5,6 +5,7 @@ $(document).ready(function(){
     $('.owl-carousel').owlCarousel({
         loop:true,
         margin:10,
+        autoplay:false,
         nav:true,
         navText:[
             previous,
@@ -15,7 +16,7 @@ $(document).ready(function(){
                 items:1
             },
             600:{
-                items:4
+                items:2
             },
             1000:{
                 items:4
