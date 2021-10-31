@@ -1,6 +1,6 @@
 $(document).ready(function(){
-    const nextIcon = '<img src="../logo/next.png" alt="right" class="control-icons">';
-    const previous = '<img src="../logo/previous.png" alt="left" class="control-icons">';
+    const nextIcon = '<img src="../logo/right.png" alt="right" class="control-icons">';
+    const previous = '<img src="../logo/left.png" alt="left" class="control-icons">';
     
     $('.owl-carousel').owlCarousel({
         loop:true,
@@ -8,8 +8,9 @@ $(document).ready(function(){
         autoplay:false,
         nav:true,
         navText:[
-            previous,
-            nextIcon
+            nextIcon,
+            previous
+         
         ],
         responsive:{
             0:{
