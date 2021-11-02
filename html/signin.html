@@ -35,112 +35,51 @@
                 <i class="fas fa-question-circle right"></i>
                 <span class="nav-text left-help">Help</span>
               </a>
-            </li>
-            <!--this is the notification icon for the navbar-->
-            <li class="nav-item">
-              <a class="nav-link right" href="#">
-                <div class="notification" data-bs-toggle="collapse" data-bs-target="#collapse1">
-                  <div class="wrap-icon" >
-                    <!--Notification badge-->
-                    <spa class="position-absolute top-0 start-100  p-1 translate-middle badge rounded-pill bg-danger">
-                      99+
-                    </spa>  
-                    <i class="fas fa-bell"></i>
-                    <span class="nav-text"> Notification</span>
-                  </div>
-                </div>
-              <div class="notify-add collapse" id="collapse1">
-                <ul class="notify_ul">
-                  <li class="success starbuck">
-                    <div class="notify-icon">
-                      <span class="icon">
-                        <i class="fas fa-user"></i>
-                      </span>
-                    </div>
-                    <div class="notify-data">
-                      <div class="notify-title">
-                        Lorem ipsum.
-                      </div>
-                      <div class="sub-title">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                      </div>
-                    </div>
-                    <div class="notify-status">
-                      <p class="Success">Success</p>
-                    </div>
-                  </li>
-                  <li class="failed bakin_robbins">
-                    <div class="notify-icon">
-                      <span class="icon"> 
-                        <i class="fas fa-user"></i>
-                      </span>
-                    </div>
-                    <div class="notify-data">
-                      <div class="notify-title">
-                        Lorem ipsum.
-                      </div>
-                      <div class="sub-title">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                      </div>
-                    </div>
-                    <div class="notify-status">
-                      <p class="failure">failed</p>
-                    </div>
-                  </li>
-                <li class="show-all">
-                  <p class="link">Show All</p>
-                </li>
-                </ul>
-              </div>
-              </a>
-            </li>
-             <!--this is the notification icon for the navbar ends here-->
-
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-               <span><i class="fas fa-user right"></i></span> 
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="profile.html"><i class="fas fa-user"></i> profile</a></li>
-                <li><a class="dropdown-item" href="upload.html"><i class="fas fa-file-upload"></i> Upload</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#"><i class="fas fa-shopping-cart"></i>My Items</a></li>
-                <li><a class="dropdown-item" href="#"><i class="fas fa-sign-out-alt"></i> Log out</a></li>
-              </ul>
-            </li>
           </ul>
         </div>
       </div>
     </nav>
+
+    <!--Stream, download and earn-->
+    <div class="row">
+      <div class="col md-6 no-gutters">
+            <div class="leftside d-flex justify-content-center align-items-center">
+                  <img src="../images/AUDIO NOTE__stream.jpg">
+            </div>
+      </div>
+
+      <div class="container shadow-2">
+        <div class="form-title">
+          <h2 class="h2">Log into your Account</h2>
+        </div><br>
+    <!--forms content displayed here-->
+    
+    <form method="post" action="#">
+    
+      <!--Email here-->
+      <div class="mb-3">
+        <input type="email" class="form-control grow" id="email" name="email" placeholder="Email">
+      </div>
+    
+       <!--create password here-->
+      <div class="mb-3">
+        <input type="password" class="form-control grow" placeholder="Password" id="password1" name="password1">
+      </div>
+    
+      <div class="mb-3"> 
+        <button type="submit"  class="btn btn-primary grow w-100">Log In</button>
+      </div>
+      
+      <div class="mb-3 AlreadyHaveAccount">
+        <a href="signup.html" class="Alreadyhave">Create a New Account? || Sign Up</a>
+      </div>
+      
+    </form>
+    </div>
+
+    </div>
   
-    <div class="container shadow-2">
-    <div class="form-title">
-      <h2 class="h2">Log into your Account</h2>
-    </div><br>
-<!--forms content displayed here-->
-
-<form method="post" action="#">
-
-  <!--Email here-->
-  <div class="mb-3">
-    <input type="email" class="form-control grow" id="email" name="email" placeholder="Email">
-  </div>
-
-   <!--create password here-->
-  <div class="mb-3">
-    <input type="password" class="form-control grow" placeholder="Password" id="password1" name="password1">
-  </div>
-
-  <div class="mb-3"> 
-    <button type="submit"  class="btn btn-primary grow w-100">Log In</button>
-  </div>
-  
-  <div class="mb-3 AlreadyHaveAccount">
-    <a href="signup.html" class="Alreadyhave">Create a New Account? || Sign Up</a>
-  </div>
-  
-</form>
-</div>
+    
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->

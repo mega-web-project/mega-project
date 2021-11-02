@@ -31,6 +31,7 @@ body{
  height: 400px;
  position: relative;
  margin: 4% auto;
+ margin-right: 50px;
  background:#fff;
  padding: 5px;
  border-color:black;
@@ -47,6 +48,11 @@ body{
  }
  .mb-3{
     width:65%;
+}
+
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
 }
 
 form {
@@ -133,6 +139,17 @@ input[type="email"]{
     position: relative;
 }
 
+.leftside, .rightside {
+    min-height: 85vh;
+    min-width: 90%;
+}
+
+
+@media screen and (min-width: 768px) {
+    .leftside, .rightside {
+        min-height: 85vh;
+    }
+}
 
 
 /*media query for all screen '''''''
