@@ -1,13 +1,10 @@
-.container .carousel{
-    margin-top:10%;
-}
-
 
 .carousel{
-    margin-top:5%;
+    margin-top:0%;
+    margin-left:30px;
 }
 .title{
-    margin-left:12%;
+    margin-left:3%;
     font-family: -apple-system, BlinkMacSystemFont,
                'avenir next', avenir,
                'helvetica neue', helvetica,
@@ -55,10 +52,10 @@
 .card-link{
     text-decoration:none;
     font-size:20px;
-    font-weight:400;
+    font-weight:350;
     font-family:Arial, Helvetica, sans-serif;
     background-color: rgb(220, 232, 233);
-    padding:15px 45px;
+    padding:12px 45px;
     color: rgb(107, 86, 86);
     font: bold;
 }
@@ -102,12 +99,12 @@
 }
 
 .owl-prev {
-    left:-6%;
+    left:-5%;
     
 }
 
 .owl-next {
-    right:-6%;
+    right:-5%;
 }
 .owl-dots{
     margin-top:2px;
