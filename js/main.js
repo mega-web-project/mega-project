@@ -21,8 +21,20 @@ $(document).ready(function(){
             },
             1000:{
                 items:3
+            },
+            1200:{
+                items:4
             }
         }
     })
 });
 
+function openSlideMenu(){
+    document.getElementById('side-menu').style.width='250px';
+    document.getElementById('main').style.marginLeft='100px';
+}
+
+function closeSlideMenu(){
+    document.getElementById('side-menu').style.width='0';
+    document.getElementById('main').style.marginLeft='0';
+}

@@ -43,18 +43,7 @@ body{
     -webkit-box-shadow:none;
 }
 
-.VerNav{
-    width:22%;
-    margin-top:-45px;
-    height:900px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    background-color: rgb(241, 241, 247);
-    margin-left:10px;
-}
-.vNavbar{
-    text-align: center;
-    padding-top:8px;
-}
+
 
 
 .list-group-item{
@@ -69,3 +58,4 @@ body{
 .list-group-item:active{
     background-color: darkgrey;
 }
+

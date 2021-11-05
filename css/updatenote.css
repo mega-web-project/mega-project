@@ -21,18 +21,18 @@
 
 .item{
     color: rgb(36, 30, 30);
-    height:25rem;
+    height:20rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+ 
 
 
 }
 
 .item .card img{
     width: 18rem;
-    height:10rem;
+    height:6rem;
 }
 .card{
     padding:0px  0px 0px 0px;
@@ -40,7 +40,7 @@
 }
 .card-text{
     text-align:justify;
-   font-family: Times New Roman, Times, serif;
+   font-family:"Arial",serif;
 }
 .owl-nav{
     position: absolute;
@@ -99,12 +99,12 @@
 }
 
 .owl-prev {
-    left:-5%;
+    left:-6%;
     
 }
 
 .owl-next {
-    right:-5%;
+    right:-6%;
 }
 .owl-dots{
     margin-top:2px;
