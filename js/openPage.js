@@ -1,3 +1,0 @@
-function openPage() {
-    window.open();
-}
