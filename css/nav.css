@@ -68,7 +68,7 @@ body{
     position: absolute;
     top:0;
     right: 22px;
-    font-size: 36px;
+    font-size:40px;
     margin-left: 50px;
 }
 .side-nav a:hover{
@@ -85,6 +85,8 @@ body{
     -ms-transition:margin-left 0.5s;
     -o-transition:margin-left 0.5s;
 }
+
+
 .nav-link{
     margin-right:85px;
   font-size:20px;
